@@ -1,0 +1,12 @@
+{
+    "id": "atmel-project-config",
+    "protected": false,
+    "project": "ATtiny84A_nRF24L01_VS_Code",
+    "mcu": "attiny84a",
+    "cpu_freq": 1000000,
+    "programmer": "avrispmkII",
+    "partno": "t84a",
+    "port": "usb",
+    "bitClock": 5,
+    "io_def": "__AVR_ATtiny84A__"
+}

@@ -1,0 +1,23 @@
+{
+    "configurations": [
+        {
+            "name": "ATtiny84A_nRF24L01_VS_Code",
+            "compilerPath": "avr-gcc",
+            "compilerArgs": [
+                "-mmcu=attiny84a"
+            ],
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "windows-gcc-x64",
+            "includePath": [
+                "${workspaceFolder}/include",
+                "${workspaceFolder}/lib/**"
+            ],
+            "defines": [
+                "__AVR_ATtiny84A__",
+                "F_CPU=1000000UL"
+            ]
+        }
+    ],
+    "version": 4
+}
